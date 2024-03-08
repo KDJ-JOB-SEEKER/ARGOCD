@@ -1,15 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
- name: demo-frontend
- namespace: default
- labels:
- env: dev
+  name: demo-frontend
+  namespace: default
+  labels:
+    env: dev
 spec:
- selector:
- matchLabels:
- app: demo-frontend
- template:
- metadata:
- labels:
- app: demo-frontend
+  selector:
+    matchLabels:
+      app: demo-frontend
+  template:
+    metadata:
+      labels:
+        app: demo-frontend
