@@ -4,7 +4,7 @@ images:
 - {}
 - name: 674050571849.dkr.ecr.ap-northeast-2.amazonaws.com/app
   newName: 674050571849.dkr.ecr.ap-northeast-2.amazonaws.com/app
-  newTag: ${{ env.IMAGE_TAG }}
+  newTag: latest
 resources:
 - ../../base
 patchesStrategicMerge:
