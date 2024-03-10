@@ -6,6 +6,5 @@ spec:
   template:
     spec:
       containers:
-      - name: demo-frontend
-        image: 674050571849.dkr.ecr.ap-northeast-2.amazonaws.com/app:${ env.IMAGE_TAG }
-
+        - name: demo-frontend
+          image: 674050571849.dkr.ecr.ap-northeast-2.amazonaws.com/app:${{ env.IMAGE_TAG }}
