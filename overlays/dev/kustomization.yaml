@@ -8,5 +8,11 @@ images:
 resources:
 - ../../base
 patches:
-- deployment-patch.yaml
-- service-patch.yaml
+- path: deployment-patch.yaml
+  target:
+    kind: Deployment
+    name: demo-frontend
+- path: service-patch.yaml
+  target:
+    kind: Service
+    name: demo-frontend
