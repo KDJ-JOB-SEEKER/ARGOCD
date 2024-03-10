@@ -7,6 +7,6 @@ images:
   newTag: 930565a9
 resources:
 - ../../base
-patchesStrategicMerge:
+patches:
 - deployment-patch.yaml
 - service-patch.yaml
