@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-frontend
-          image: 674050571849.dkr.ecr.ap-northeast-2.amazonaws.com/app:${ env.IMAGE_TAG }
+          image: 674050571849.dkr.ecr.ap-northeast-2.amazonaws.com/app:${IMAGE_TAG}
           imagePullPolicy: Always
           ports:
             - containerPort: 80
